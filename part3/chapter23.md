@@ -45,19 +45,19 @@ winfo 		| 	663 | 	查询窗口状态.
 wm 			| 	657 | 	与窗口管理器交互.
 
 ### 23.5.3	支撑过程表23-3列出了一些实现标准对话框、可选菜单和其它功能的支撑过程。Table 23-3. Tk 支撑过程support procedures
-命令 | 	页 | 	描述--- | --- | ---tk_bisque | 	621 | 	安装桔黄颜色族.
-tk_chooseColor | 	602 | 	颜色选择对话框. (Tk 4.2)
-tk_chooseDirectory | 	600 | 	目录选择对话框. (Tk 8.2)
-tk_dialog | 	599 | 	创建简单对话框.
+命令           | 页 | 	描述------------------ | ------ | ---tk_bisque 			| 	621 | 	安装桔黄颜色族.
+tk_chooseColor 		| 	602 | 	颜色选择对话框. (Tk 4.2)
+tk_chooseDirectory 	| 	600 | 	目录选择对话框. (Tk 8.2)
+tk_dialog 			| 	599 | 	创建简单对话框.
 tk_focusFollowsMouse | 	603 | 	安装鼠标跟踪焦点模式.
-tk_focusNext | 	604 | 	按tab顺序聚焦文本控件.
-tk_focusPrev | 	604 | 	按tab顺序聚焦前一个控件.
-tk_getOpenFile | 	600 | 	打开已存在文件对话框. (Tk 4.2)
-tk_getSaveFile | 	600 | 	打开新文件对话框. (Tk 4.2)
-tk_messageBox | 	600 | 	消息对话框. (Tk 4.2)
-tk_optionMenu | 	465 | 	创建一个选择菜单.
-tk_popup | 	465 | 	创建一个弹出菜单.
-tk_setPalette | 	621 | 	设置标准调色板. (Tk 4.2)
+tk_focusNext 		| 	604 | 	按tab顺序聚焦文本控件.
+tk_focusPrev 		| 	604 | 	按tab顺序聚焦前一个控件.
+tk_getOpenFile 		| 	600 | 	打开已存在文件对话框. (Tk 4.2)
+tk_getSaveFile 		| 	600 | 	打开新文件对话框. (Tk 4.2)
+tk_messageBox 		| 	600 | 	消息对话框. (Tk 4.2)
+tk_optionMenu 		| 	465 | 	创建一个选择菜单.
+tk_popup 			| 	465 | 	创建一个弹出菜单.
+tk_setPalette 		| 	621 | 	设置标准调色板. (Tk 4.2)
 
 ## 23.6	其它控件集本书描述了由核心Tk发布版本所提供的控件集。也有些其它Tk的控件集。一些由TCL过程实现，它将基本控件组成有用的组合（如BWidgets）。其它是由基于C的控件（如Tix和BLT）组成的。一些更流行的控件集列在这里：
 ### 23.6.1	BLTGeorge Howlett创建了BLT。它包括一个可以有效支持大型数据集的主要图表控件。也包括标签笔记本和树形视图控件。其忙录控件用一个透明的仅显示一个监视光标的控件覆盖应用程序，当应用程序忙于做某事且你不想接受鼠标点击时，这个是非常方便的。这是一个基于C的工具包。    	<http://www.sourceforge.net/projects/blt/>### 23.6.2	TixTix由Ioi Lam所创建，现在由一些志愿者组成的小组所支持。它包括几个控件和一个在TCL中创建控件的基础组织。特色包括气球提示、标签窗口、窗格窗口和一个层次游览器。虽然它包含一些由TCL组合成的控件，但还是一个基于C的工具箱。  <http://tix.sourceforge.net/>  
