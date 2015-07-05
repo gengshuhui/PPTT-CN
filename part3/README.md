@@ -49,3 +49,35 @@
 
 26.4	grid命令
 
+
+# [27 Place布局管理器](./chapter27.md)
+27.1 place基础
+
+27.2 窗格管理器
+
+27.3 place命令
+
+# [28 Panedwindow小控件](./chapter28.md)
+28.1 使用Panedwindow
+
+28.2 Panedwindow编程
+
+28.3 Panedwindow属性
+
+# [29 将事件绑定命令](./chapter29.md)
+29.1 bind命令
+
+29.2 bindtags命令
+
+29.3 事件语法
+
+29.4 修饰成份
+
+29.5 事件序列
+
+29.6 虚拟事件
+
+29.7 产生事件
+
+29.8 事件总结
+
